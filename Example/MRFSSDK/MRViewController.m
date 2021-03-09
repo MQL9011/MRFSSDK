@@ -7,7 +7,7 @@
 //
 
 #import "MRViewController.h"
-
+#import <MRFSSDK/MRFSSDK.h>
 @interface MRViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [MRFSSDK sharedInstance];
 }
 
 - (void)didReceiveMemoryWarning

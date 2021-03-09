@@ -13,7 +13,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MQL9011/MRFSSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-
   s.source_files = 'MRFSSDK/Classes/**/*'
+  s.xcconfig = {
+    'USER_HEADER_SEARCH_PATHS' => [
+        '"/Users/mccree/Desktop/SDK/inc"'
+    ],
+    #'ENABLE_BITCODE' => 'NO',
+    #'OTHER_LDFLAGS' => '-ObjC',
+    'VALID_ARCHS' =>  'arm64',
+  }
   
 end
