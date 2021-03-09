@@ -1,0 +1,6 @@
+framework module Pods_MRFSSDK_Tests {
+  umbrella header "Pods-MRFSSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

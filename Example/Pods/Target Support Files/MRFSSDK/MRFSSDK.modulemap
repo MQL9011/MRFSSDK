@@ -1,0 +1,6 @@
+framework module MRFSSDK {
+  umbrella header "MRFSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
