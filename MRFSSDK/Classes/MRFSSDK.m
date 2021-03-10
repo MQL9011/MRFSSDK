@@ -30,7 +30,7 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
     return [self sharedInstance];
 }
 
-- (void)configFSM{
+- (void)configFSMeeting{
     self.fsMeeting = [[FSMeeting alloc] init];
     UIApplication *app = [UIApplication sharedApplication];
     [self.fsMeeting application:app didFinishLaunchingWithOptions:nil];

@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 /// 初始化
-- (void)configFSM;
+- (void)configFSMeeting;
 
 /// 加入会议室
 /// @param param 参数
