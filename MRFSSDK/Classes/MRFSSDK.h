@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 加入会议室
 /// @param param 参数
-- (void)joinMeeting:(NSDictionary *)param;
+- (void)joinFSMeeting:(NSDictionary *)param;
 
 /// 获取当前控制器
 + (UIViewController *)rootViewController;

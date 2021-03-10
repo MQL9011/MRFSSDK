@@ -36,7 +36,7 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
     [self.fsMeeting application:app didFinishLaunchingWithOptions:nil];
 }
 
-- (void)joinMeeting:(NSDictionary *)param{
+- (void)joinFSMeeting:(NSDictionary *)param{
     NSString *roomId = param[@"roomId"];
     NSString *roomPwd = param[@"roomPwd"];
     NSString *nickName = param[@"nickName"];
