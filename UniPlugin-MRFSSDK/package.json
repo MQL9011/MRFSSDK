@@ -35,10 +35,12 @@
 			},
 			"plists": {},
 			"assets": [
-				"可选，插件要使用的xcassets文件列表，相对于ios目录的路径"
+				"FSMeeting.bundle",
+				"Emoticons.bundle"
 			],
 			"privacies": [
-				""
+				"NSPhotoLibraryUsageDescription",
+				"NSCameraUsageDescription"
 			],
 			"embedSwift": false,
 			"deploymentTarget": "8.0",
