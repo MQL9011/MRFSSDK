@@ -12,17 +12,22 @@ Pod::Spec.new do |s|
   s.author           = { 'mccree' => '301063915@qq.com' }
   s.source           = { :git => 'https://github.com/MQL9011/MRFSSDK.git', :tag => s.version.to_s }
 
+  s.platform = :ios
   s.ios.deployment_target = '9.0'
+  s.requires_arc = true
   s.source_files = 'MRFSSDK/Classes/**/*'
+  s.static_framework = true
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => [
-        '"/Users/mccree/Desktop/uni_plugin/SDK/inc"'
-    ],
-    'ENABLE_BITCODE' => 'NO',
-    'OTHER_LDFLAGS' => '-ObjC',
-    'VALID_ARCHS' =>  'arm64',
+        # '"/Users/mccree/Desktop/SDK/inc"'
+        '"$(SRCROOT)/../../SDK/inc"'
+    ]
+    #'ENABLE_BITCODE' => 'NO',
+    #'OTHER_LDFLAGS' => '-ObjC',
+    # 'VALID_ARCHS' =>  'arm64',
   }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-
+  s.user_target_xcconfig = { 
+    'ENABLE_BITCODE' => 'NO'
+  }
   
 end

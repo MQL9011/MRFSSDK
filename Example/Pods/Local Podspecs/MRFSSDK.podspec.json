@@ -21,13 +21,8 @@
   "source_files": "MRFSSDK/Classes/**/*",
   "xcconfig": {
     "USER_HEADER_SEARCH_PATHS": [
-      "\"/Users/mccree/Desktop/uni_plugin/SDK/inc\""
+      "\"/Users/mccree/Desktop/SDK/inc\""
     ],
-    "ENABLE_BITCODE": "NO",
-    "OTHER_LDFLAGS": "-ObjC",
-    "VALID_ARCHS": "arm64"
-  },
-  "pod_target_xcconfig": {
     "VALID_ARCHS": "arm64"
   }
 }
