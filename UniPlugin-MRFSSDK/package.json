@@ -12,7 +12,6 @@
 				"class": "MRFSSDK"
 			}],
 			"integrateType": "framework",
-			"hooksClass": "",
 			"frameworks": [
 				"AFNetworking.framework",
 				"JLRoutes.framework",
@@ -29,15 +28,7 @@
 				"ReactiveObjC.framework",
 				"FSMeeting.framework"
 			],
-			"capabilities": {
-				"entitlements": {},
-				"plists": {}
-			},
-			"plists": {},
-			"assets": [
-				"FSMeeting.bundle",
-				"Emoticons.bundle"
-			],
+			"assets": [],
 			"privacies": [
 				"NSPhotoLibraryUsageDescription",
 				"NSCameraUsageDescription"
@@ -46,15 +37,10 @@
 			"deploymentTarget": "8.0",
 			"validArchitectures": [
 				"arm64"
-			],
-			"parameters": {
-				"插件需要配置的参数名称, 如appid": {
-					"des": "",
-					"key": ""
-				}
-			},
+			],	
 			"resources": [
-				""
+				"FSMeeting.bundle",
+				"Emoticons.bundle"
 			]
 		}
 	}
