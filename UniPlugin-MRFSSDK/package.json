@@ -1,0 +1,59 @@
+{
+	"name": "MRFSMeetingSDK_ios",
+	"id": "UniPlugin-MRFSSDK",
+	"version": "0.1.0",
+	"description": "FSMeetingSDK封装uni插件ios",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "UniPlugin-MRFSSDK",
+				"class": "MRFSSDK"
+			}],
+			"integrateType": "framework",
+			"hooksClass": "",
+			"frameworks": [
+				"AFNetworking.framework",
+				"JLRoutes.framework",
+				"Masonry.framework",
+				"MJRefresh.framework",
+				"ReactiveObjC.framework",
+				"FSMeeting.framework"
+			],
+			"embedFrameworks": [
+				"AFNetworking.framework",
+				"JLRoutes.framework",
+				"Masonry.framework",
+				"MJRefresh.framework",
+				"ReactiveObjC.framework",
+				"FSMeeting.framework"
+			],
+			"capabilities": {
+				"entitlements": {},
+				"plists": {}
+			},
+			"plists": {},
+			"assets": [
+				"可选，插件要使用的xcassets文件列表，相对于ios目录的路径"
+			],
+			"privacies": [
+				""
+			],
+			"embedSwift": false,
+			"deploymentTarget": "8.0",
+			"validArchitectures": [
+				"arm64"
+			],
+			"parameters": {
+				"插件需要配置的参数名称, 如appid": {
+					"des": "",
+					"key": ""
+				}
+			},
+			"resources": [
+				""
+			]
+		}
+	}
+}
