@@ -199,7 +199,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9252C622E1FFC6C5837543B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,24 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9252C622E1FFC6C5837543B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MRFSSDK_Example/Pods-MRFSSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MRFSSDK/MRFSSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRFSSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRFSSDK_Example/Pods-MRFSSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BBF8A0C3713FA96E4808914B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

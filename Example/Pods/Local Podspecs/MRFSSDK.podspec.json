@@ -18,11 +18,15 @@
   "platforms": {
     "ios": "9.0"
   },
+  "requires_arc": true,
   "source_files": "MRFSSDK/Classes/**/*",
+  "static_framework": true,
   "xcconfig": {
     "USER_HEADER_SEARCH_PATHS": [
-      "\"/Users/mccree/Desktop/SDK/inc\""
-    ],
-    "VALID_ARCHS": "arm64"
+      "\"$(SRCROOT)/../../SDK/inc\""
+    ]
+  },
+  "user_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
   }
 }
