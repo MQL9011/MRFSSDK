@@ -18,7 +18,8 @@
 				"Masonry.framework",
 				"MJRefresh.framework",
 				"ReactiveObjC.framework",
-				"FSMeeting.framework"
+				"FSMeeting.framework",
+				"MRFSSDK.framework"
 			],
 			"embedFrameworks": [
 				"AFNetworking.framework",
@@ -26,7 +27,8 @@
 				"Masonry.framework",
 				"MJRefresh.framework",
 				"ReactiveObjC.framework",
-				"FSMeeting.framework"
+				"FSMeeting.framework",
+				"MRFSSDK.framework"
 			],
 			"assets": [],
 			"privacies": [
@@ -37,7 +39,7 @@
 			"deploymentTarget": "8.0",
 			"validArchitectures": [
 				"arm64"
-			],	
+			],
 			"resources": [
 				"FSMeeting.bundle",
 				"Emoticons.bundle"
