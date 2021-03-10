@@ -31,12 +31,14 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
 }
 
 - (void)configFSMeeting{
+    NSLog(@"%s 初始化成功",__func__);
     self.fsMeeting = [[FSMeeting alloc] init];
     UIApplication *app = [UIApplication sharedApplication];
     [self.fsMeeting application:app didFinishLaunchingWithOptions:nil];
 }
 
 - (void)joinFSMeeting:(NSDictionary *)param{
+    NSLog(@"%s 加入会议",__func__);
     NSString *roomId = param[@"roomId"];
     NSString *roomPwd = param[@"roomPwd"];
     NSString *nickName = param[@"nickName"];
