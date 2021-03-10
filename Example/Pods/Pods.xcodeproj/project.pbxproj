@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0528C77721292B9C477475B1B5111E41 /* Pods-MRFSSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB719580BDBAFF95AE0A492B37567C66 /* Pods-MRFSSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13AD10744868004D3D10B63A4CAEC72F /* MRFSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2061293F144117F8E37D2554D57436B4 /* MRFSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28E981C9C6B5BB2F0A11D2B5EFF77742 /* MRFSSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA1F763FFF2A19EE731F71BDA62175 /* MRFSSDK.m */; };
-		4210900487905706D576B32A7B9B2A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5678B0B9D415EA558163C24B94D7F6B2 /* Pods-MRFSSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91DCE11660BCF44AA55D67B9B7F5B62 /* Pods-MRFSSDK_Example-dummy.m */; };
+		0528C77721292B9C477475B1B5111E41 /* Pods-MRFSSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2249FDC67842B21212DFEFE6CE1B12 /* Pods-MRFSSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AEF7529656E1D5E3A4199D7300EE719 /* MRFSSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EA1F763FFF2A19EE731F71BDA62175 /* MRFSSDK.m */; };
+		123CAEEC0DA1777451BF3B2C49B37CD2 /* FSMeeting.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A5771A7A6A3F44F60947415A0ED4B88 /* FSMeeting.bundle */; };
+		248CE5CB60C0E71B928A095C9F7AF6AA /* MRFSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7793FC8A79FA0896E77681420B70F525 /* MRFSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3427DC9E3500CA75EA4379F010400958 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0FAD0815B588A7F44E5D8F9B7F40C018 /* Emoticons.bundle */; };
+		5678B0B9D415EA558163C24B94D7F6B2 /* Pods-MRFSSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5491286F227614B32FAB9FBBE4473949 /* Pods-MRFSSDK_Example-dummy.m */; };
 		62727067F7B30404E0261841C7036B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		62BB344F69E8A98F8CF2C0FC9AA3F2F7 /* MRFSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7793FC8A79FA0896E77681420B70F525 /* MRFSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B43B82B8236D37A0A005CF0680AB699C /* MRFSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070EFE5EC855FB4AAE292361888EF102 /* MRFSSDK-dummy.m */; };
+		6781814C9AED12065C8370B6F435E6C3 /* MRFSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070EFE5EC855FB4AAE292361888EF102 /* MRFSSDK-dummy.m */; };
+		A06BB5C98AA38633AD908FB43251F61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D07AFC41D3C25F4F113D16BA12DCD46E /* MRFSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2061293F144117F8E37D2554D57436B4 /* MRFSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,49 +30,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000A2E21113B62C3FC3F5917F305FC2D /* Pods-MRFSSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRFSSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		01ED294E1DAC6C2BFF2310F9DC21CF7C /* Pods_MRFSSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRFSSDK_Example.framework; path = "Pods-MRFSSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		070EFE5EC855FB4AAE292361888EF102 /* MRFSSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRFSSDK-dummy.m"; sourceTree = "<group>"; };
 		0C25E2EB2FBAB2EDA36BBF4521995B70 /* MRFSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFSSDK.debug.xcconfig; sourceTree = "<group>"; };
 		0FAD0815B588A7F44E5D8F9B7F40C018 /* Emoticons.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Emoticons.bundle; path = MRFSSDK/Assets/Emoticons.bundle; sourceTree = "<group>"; };
-		197FBD98B68B435B4003D3CB13A94319 /* Pods-MRFSSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRFSSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		1A5771A7A6A3F44F60947415A0ED4B88 /* FSMeeting.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FSMeeting.bundle; path = MRFSSDK/Assets/FSMeeting.bundle; sourceTree = "<group>"; };
+		1BFB42E1548DEBA547AB366D9194695F /* Pods-MRFSSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRFSSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C2249FDC67842B21212DFEFE6CE1B12 /* Pods-MRFSSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRFSSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		2061293F144117F8E37D2554D57436B4 /* MRFSSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRFSSDK.h; path = MRFSSDK/Classes/MRFSSDK.h; sourceTree = "<group>"; };
-		430DBE1756F724EEC8285D29BF3BCBCC /* Pods-MRFSSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRFSSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		340279B8D7692DEC3AC99EFB8641D5D0 /* Pods-MRFSSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRFSSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3D0C267561B85C6EA0F971B572C1FD20 /* Pods-MRFSSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRFSSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C29CBEE3CBC01C5342778B7F44BD277 /* Pods-MRFSSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MRFSSDK_Example.modulemap"; sourceTree = "<group>"; };
 		526768FF997200F62CC0638E74545A3D /* MRFSSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRFSSDK-prefix.pch"; sourceTree = "<group>"; };
+		542E5038A8084798AD92648FA777849D /* Pods-MRFSSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRFSSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5491286F227614B32FAB9FBBE4473949 /* Pods-MRFSSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRFSSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75B4721BB73EE2E92BED13761763C413 /* MRFSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRFSSDK.release.xcconfig; sourceTree = "<group>"; };
 		7793FC8A79FA0896E77681420B70F525 /* MRFSSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRFSSDK-umbrella.h"; sourceTree = "<group>"; };
-		8D7707897B3BC6100D32180A0DC13A6D /* Pods-MRFSSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MRFSSDK_Example.modulemap"; sourceTree = "<group>"; };
-		8F314061FB82256B2D8954AC6BFA9334 /* Pods-MRFSSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRFSSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		86841D048EB90AC5D054B408C2C874BB /* Pods-MRFSSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRFSSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		9132B41114C7C532AC1A2C0E1A9FC812 /* MRFSSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MRFSSDK-Info.plist"; sourceTree = "<group>"; };
 		94737BB83F6C10C6BD7A12E59DA22276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		98066A7DFA86B5CA3571787E621EC2BD /* Pods-MRFSSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRFSSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B4E2D5B333B9A49A1A307D38BC292AC7 /* Pods-MRFSSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRFSSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B875D90521FCD40F833BE5D9D92B596F /* MRFSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRFSSDK.framework; path = MRFSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB719580BDBAFF95AE0A492B37567C66 /* Pods-MRFSSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRFSSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		BEDE5E87CF55D576A1ABEDF9065CA385 /* Pods-MRFSSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRFSSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C430F58CD564CAFA60CDAF42CA612988 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C91DCE11660BCF44AA55D67B9B7F5B62 /* Pods-MRFSSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRFSSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		D1A81D5A2EE502D8783C1E9FBF1ECA13 /* MRFSSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MRFSSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D55F762B7F578222F3EB38977E0F0467 /* MRFSSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRFSSDK.modulemap; sourceTree = "<group>"; };
 		F4EA1F763FFF2A19EE731F71BDA62175 /* MRFSSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRFSSDK.m; path = MRFSSDK/Classes/MRFSSDK.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EAF5533A760787B2C2083DE25E9E0FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4210900487905706D576B32A7B9B2A09 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C5510581DCA856561E899AAD52E13E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62727067F7B30404E0261841C7036B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFE7B961986F38CFCCA2B77105FE386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06BB5C98AA38633AD908FB43251F61F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,29 +88,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2B31AF34012DC1C7D0A7240A2044B337 /* Pods-MRFSSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C29CBEE3CBC01C5342778B7F44BD277 /* Pods-MRFSSDK_Example.modulemap */,
+				542E5038A8084798AD92648FA777849D /* Pods-MRFSSDK_Example-acknowledgements.markdown */,
+				3D0C267561B85C6EA0F971B572C1FD20 /* Pods-MRFSSDK_Example-acknowledgements.plist */,
+				5491286F227614B32FAB9FBBE4473949 /* Pods-MRFSSDK_Example-dummy.m */,
+				340279B8D7692DEC3AC99EFB8641D5D0 /* Pods-MRFSSDK_Example-frameworks.sh */,
+				86841D048EB90AC5D054B408C2C874BB /* Pods-MRFSSDK_Example-Info.plist */,
+				1C2249FDC67842B21212DFEFE6CE1B12 /* Pods-MRFSSDK_Example-umbrella.h */,
+				1BFB42E1548DEBA547AB366D9194695F /* Pods-MRFSSDK_Example.debug.xcconfig */,
+				000A2E21113B62C3FC3F5917F305FC2D /* Pods-MRFSSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-MRFSSDK_Example";
+			path = "Target Support Files/Pods-MRFSSDK_Example";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		9084A4FBEF8A86772CA7389FF583D846 /* Pods-MRFSSDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8D7707897B3BC6100D32180A0DC13A6D /* Pods-MRFSSDK_Example.modulemap */,
-				430DBE1756F724EEC8285D29BF3BCBCC /* Pods-MRFSSDK_Example-acknowledgements.markdown */,
-				8F314061FB82256B2D8954AC6BFA9334 /* Pods-MRFSSDK_Example-acknowledgements.plist */,
-				C91DCE11660BCF44AA55D67B9B7F5B62 /* Pods-MRFSSDK_Example-dummy.m */,
-				197FBD98B68B435B4003D3CB13A94319 /* Pods-MRFSSDK_Example-Info.plist */,
-				98066A7DFA86B5CA3571787E621EC2BD /* Pods-MRFSSDK_Example-resources.sh */,
-				BB719580BDBAFF95AE0A492B37567C66 /* Pods-MRFSSDK_Example-umbrella.h */,
-				BEDE5E87CF55D576A1ABEDF9065CA385 /* Pods-MRFSSDK_Example.debug.xcconfig */,
-				B4E2D5B333B9A49A1A307D38BC292AC7 /* Pods-MRFSSDK_Example.release.xcconfig */,
-			);
-			name = "Pods-MRFSSDK_Example";
-			path = "Target Support Files/Pods-MRFSSDK_Example";
 			sourceTree = "<group>";
 		};
 		9B9A072BFB12B57F0EED0D9CE4A85E93 /* Development Pods */ = {
@@ -170,7 +172,7 @@
 		DB9944A70C44378D68031945705FB6CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9084A4FBEF8A86772CA7389FF583D846 /* Pods-MRFSSDK_Example */,
+				2B31AF34012DC1C7D0A7240A2044B337 /* Pods-MRFSSDK_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -188,12 +190,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C0D18AA07DDAB37F9B5B76F10A384D6 /* Headers */ = {
+		2BAB14CB3CCD61DE33D5EE3733099878 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62BB344F69E8A98F8CF2C0FC9AA3F2F7 /* MRFSSDK-umbrella.h in Headers */,
-				13AD10744868004D3D10B63A4CAEC72F /* MRFSSDK.h in Headers */,
+				248CE5CB60C0E71B928A095C9F7AF6AA /* MRFSSDK-umbrella.h in Headers */,
+				D07AFC41D3C25F4F113D16BA12DCD46E /* MRFSSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,12 +212,12 @@
 /* Begin PBXNativeTarget section */
 		AD3DF343BE635D627294C458FAD63738 /* MRFSSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB959371F9F5D0D5B1A30E3702518A59 /* Build configuration list for PBXNativeTarget "MRFSSDK" */;
+			buildConfigurationList = 97D8FEFBFE6A33585796F553EB2F7E66 /* Build configuration list for PBXNativeTarget "MRFSSDK" */;
 			buildPhases = (
-				1C0D18AA07DDAB37F9B5B76F10A384D6 /* Headers */,
-				471EDB8658154348FB62A17862E39497 /* Sources */,
-				0EAF5533A760787B2C2083DE25E9E0FA /* Frameworks */,
-				36B354FAAEE470F6D81598543E9CDDF3 /* Resources */,
+				2BAB14CB3CCD61DE33D5EE3733099878 /* Headers */,
+				F60FF76B0E054771D9CC93DE4A0D2F70 /* Sources */,
+				DDFE7B961986F38CFCCA2B77105FE386 /* Frameworks */,
+				2DFAA138B551A55E942383E4AB0D1652 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -281,30 +283,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36B354FAAEE470F6D81598543E9CDDF3 /* Resources */ = {
+		2DFAA138B551A55E942383E4AB0D1652 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3427DC9E3500CA75EA4379F010400958 /* Emoticons.bundle in Resources */,
+				123CAEEC0DA1777451BF3B2C49B37CD2 /* FSMeeting.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		471EDB8658154348FB62A17862E39497 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B43B82B8236D37A0A005CF0680AB699C /* MRFSSDK-dummy.m in Sources */,
-				28E981C9C6B5BB2F0A11D2B5EFF77742 /* MRFSSDK.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E8000223F8835C5CAC802ADF8B43D952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5678B0B9D415EA558163C24B94D7F6B2 /* Pods-MRFSSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60FF76B0E054771D9CC93DE4A0D2F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6781814C9AED12065C8370B6F435E6C3 /* MRFSSDK-dummy.m in Sources */,
+				0AEF7529656E1D5E3A4199D7300EE719 /* MRFSSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +324,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1DB776931CEBE06793A8C0AA90F44328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B4721BB73EE2E92BED13761763C413 /* MRFSSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRFSSDK/MRFSSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRFSSDK/MRFSSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRFSSDK/MRFSSDK.modulemap";
+				PRODUCT_MODULE_NAME = MRFSSDK;
+				PRODUCT_NAME = MRFSSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2457DEF9A2F28BEC11A29FCE93ABECBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4E2D5B333B9A49A1A307D38BC292AC7 /* Pods-MRFSSDK_Example.release.xcconfig */;
+			baseConfigurationReference = 000A2E21113B62C3FC3F5917F305FC2D /* Pods-MRFSSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -421,7 +456,7 @@
 		};
 		3068BA0A7964F4FEF8AACA4196A45E9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDE5E87CF55D576A1ABEDF9065CA385 /* Pods-MRFSSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 1BFB42E1548DEBA547AB366D9194695F /* Pods-MRFSSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -451,7 +486,7 @@
 			};
 			name = Debug;
 		};
-		403D9EFFAA578952A8D92E9DC5423ED0 /* Debug */ = {
+		5BEE89CE69ADD9C9AAC4C56BAEC00BA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C25E2EB2FBAB2EDA36BBF4521995B70 /* MRFSSDK.debug.xcconfig */;
 			buildSettings = {
@@ -468,7 +503,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/MRFSSDK/MRFSSDK.modulemap";
 				PRODUCT_MODULE_NAME = MRFSSDK;
 				PRODUCT_NAME = MRFSSDK;
@@ -481,38 +515,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		99B783A09B47164BC39A9819DC6D41BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75B4721BB73EE2E92BED13761763C413 /* MRFSSDK.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRFSSDK/MRFSSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRFSSDK/MRFSSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/MRFSSDK/MRFSSDK.modulemap";
-				PRODUCT_MODULE_NAME = MRFSSDK;
-				PRODUCT_NAME = MRFSSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -588,20 +590,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		97D8FEFBFE6A33585796F553EB2F7E66 /* Build configuration list for PBXNativeTarget "MRFSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE89CE69ADD9C9AAC4C56BAEC00BA3 /* Debug */,
+				1DB776931CEBE06793A8C0AA90F44328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BA8754F74E6D7B240FB0EEB77A7749ED /* Build configuration list for PBXNativeTarget "Pods-MRFSSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3068BA0A7964F4FEF8AACA4196A45E9C /* Debug */,
 				2457DEF9A2F28BEC11A29FCE93ABECBE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FB959371F9F5D0D5B1A30E3702518A59 /* Build configuration list for PBXNativeTarget "MRFSSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				403D9EFFAA578952A8D92E9DC5423ED0 /* Debug */,
-				99B783A09B47164BC39A9819DC6D41BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.ios.deployment_target = '9.0'
-  s.requires_arc = true
-  s.static_framework = true
   s.source_files = 'MRFSSDK/Classes/*.{h,m}'
   s.public_header_files = 'MRFSSDK/Classes/*.h'
   s.resources = "MRFSSDK/Assets/*.{bundle}"
@@ -23,9 +21,9 @@ Pod::Spec.new do |s|
     'USER_HEADER_SEARCH_PATHS' => [
         '"$(SRCROOT)/../../SDK/inc"'
     ],
-    'ENABLE_BITCODE' => 'NO',
-    'OTHER_LDFLAGS' => '-ObjC',
-    'VALID_ARCHS' => 'arm64',
+#    'ENABLE_BITCODE' => 'NO',
+#    'OTHER_LDFLAGS' => '-ObjC',
+#    'VALID_ARCHS' => 'arm64',
   }
 #  s.user_target_xcconfig = {
 #    'ENABLE_BITCODE' => 'NO'
