@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
   s.resources = "MRFSSDK/Assets/*.{bundle}"
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => [
-        # '"/Users/mccree/Desktop/SDK/inc"'
         '"$(SRCROOT)/../../SDK/inc"'
     ],
     'ENABLE_BITCODE' => 'NO',
