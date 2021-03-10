@@ -22,5 +22,13 @@
   "static_framework": true,
   "source_files": "MRFSSDK/Classes/*.{h,m}",
   "public_header_files": "MRFSSDK/Classes/*.h",
-  "resources": "MRFSSDK/Assets/*.{bundle}"
+  "resources": "MRFSSDK/Assets/*.{bundle}",
+  "xcconfig": {
+    "USER_HEADER_SEARCH_PATHS": [
+      "\"$(SRCROOT)/../../SDK/inc\""
+    ],
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "-ObjC",
+    "VALID_ARCHS": "arm64"
+  }
 }

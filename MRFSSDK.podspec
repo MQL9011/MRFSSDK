@@ -19,14 +19,14 @@ Pod::Spec.new do |s|
   s.source_files = 'MRFSSDK/Classes/*.{h,m}'
   s.public_header_files = 'MRFSSDK/Classes/*.h'
   s.resources = "MRFSSDK/Assets/*.{bundle}"
-#  s.xcconfig = {
-#    'USER_HEADER_SEARCH_PATHS' => [
-#        '"$(SRCROOT)/../../SDK/inc"'
-#    ],
-#    'ENABLE_BITCODE' => 'NO',
-#    'OTHER_LDFLAGS' => '-ObjC',
-#    'VALID_ARCHS' => 'arm64',
-#  }
+  s.xcconfig = {
+    'USER_HEADER_SEARCH_PATHS' => [
+        '"$(SRCROOT)/../../SDK/inc"'
+    ],
+    'ENABLE_BITCODE' => 'NO',
+    'OTHER_LDFLAGS' => '-ObjC',
+    'VALID_ARCHS' => 'arm64',
+  }
 #  s.user_target_xcconfig = {
 #    'ENABLE_BITCODE' => 'NO'
 #  }
