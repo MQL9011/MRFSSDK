@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 会前管理模块 api 信息配置文件 -->
+<root>
+    <OauthKey>fmc-ios-client</OauthKey>
+    <OauthSecret>b1129630-a96c-404e-8e61-c00a71bc5f4f</OauthSecret>
+    
+    <ChannelCoding></ChannelCoding><!--渠道码-->
+    <ApiSrv>
+        <Query_Demo>https://interface.hst.com/open/rooms/demo</Query_Demo>
+        <Query_Token>https://oauth.hst.com/oauth2/token</Query_Token>
+        <Query_MobileCode>https://interface.hst.com/open/smsservice/getverifycode</Query_MobileCode>
+        <Check_MobileCode>https://interface.hst.com/open/users/</Check_MobileCode>
+        <Create_User>https://interface.hst.com/open/users</Create_User>
+        <Create_UserV2>https://interface.hst.com/open/users/v2</Create_UserV2>
+        <Create_BindInfo>https://interface.hst.com/api/bind/</Create_BindInfo>
+        <Remove_BindInfo>https://interface.hst.com/api/bind/</Remove_BindInfo>
+        <Query_BindInfo>https://interface.hst.com/api/bind/</Query_BindInfo>
+        <Query_UserLevel>https://interface.hst.com/security/userrightservice/getuserright</Query_UserLevel>
+        <Query_RemindMessage>https://interface.hst.com/security/productservice/remind</Query_RemindMessage>
+        <Query_UserInfo>https://interface.hst.com/api/users/myself</Query_UserInfo>
+        <Edit_UserInfo>https://interface.hst.com/api/users/</Edit_UserInfo>
+        <Query_AllMeetingRoom>https://interface.hst.com/security/roomlookupservice/having</Query_AllMeetingRoom>
+        <Query_AllManagerMeeingRoom>https://interface.hst.com/security/roomlookupservice/mycreate</Query_AllManagerMeeingRoom>
+        <Create_MeetingRoom>https://interface.hst.com/security/roomservice/create</Create_MeetingRoom>
+        <Edit_MeetingRoom>https://interface.hst.com/security/roomservice/update</Edit_MeetingRoom>
+        <Remove_MeetingRoom>https://interface.hst.com/security/roomservice/delete</Remove_MeetingRoom>
+        <Query_MeetingRoomInfo>https://interface.hst.com/security/roomservice/getroominfo</Query_MeetingRoomInfo>
+    </ApiSrv>
+    <Language>
+        <LanguageItem id="1" name="zh-cn"/>
+        <LanguageItem id="2" name="zh-tw"/>
+        <LanguageItem id="3" name="en-us"/>
+        <LanguageItem id="4" name="en-us"/>
+    </Language>
+</root>

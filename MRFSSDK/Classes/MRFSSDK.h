@@ -21,8 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param param 参数
 - (void)joinMeeting:(NSDictionary *)param;
 
+/// 获取当前控制器
 + (UIViewController *)rootViewController;
-
 
 @end
 

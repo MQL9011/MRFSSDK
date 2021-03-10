@@ -19,14 +19,36 @@
     "ios": "9.0"
   },
   "requires_arc": true,
-  "source_files": "MRFSSDK/Classes/**/*",
   "static_framework": true,
+  "source_files": "MRFSSDK/Classes/*.{h,m}",
+  "resources": "MRFSSDK/Assets/*.{bundle}",
   "xcconfig": {
     "USER_HEADER_SEARCH_PATHS": [
       "\"$(SRCROOT)/../../SDK/inc\""
-    ]
+    ],
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "-ObjC",
+    "VALID_ARCHS": "arm64"
   },
   "user_target_xcconfig": {
     "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": "MRFSSDK/FSMeeting.framework",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "JLRoutes": [
+
+    ],
+    "AFNetworking": [
+
+    ]
   }
 }

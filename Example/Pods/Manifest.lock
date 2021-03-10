@@ -1,15 +1,52 @@
 PODS:
-  - MRFSSDK (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - JLRoutes (2.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - MRFSSDK (0.1.0):
+    - AFNetworking
+    - JLRoutes
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - MRFSSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - JLRoutes
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   MRFSSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRFSSDK: eafdd2f2dade177451baa750f015f3bc49985310
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MRFSSDK: e2d2e45117b57a687afa7b850936ace58f2db793
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 385332081c4dc8c83f52c26bf50a09ca72ee63a6
 

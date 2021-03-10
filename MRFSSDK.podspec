@@ -15,19 +15,25 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.source_files = 'MRFSSDK/Classes/**/*'
   s.static_framework = true
+  s.source_files = 'MRFSSDK/Classes/*.{h,m}'
+  s.resources = "MRFSSDK/Assets/*.{bundle}"
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => [
         # '"/Users/mccree/Desktop/SDK/inc"'
         '"$(SRCROOT)/../../SDK/inc"'
-    ]
-    #'ENABLE_BITCODE' => 'NO',
-    #'OTHER_LDFLAGS' => '-ObjC',
-    # 'VALID_ARCHS' =>  'arm64',
+    ],
+    'ENABLE_BITCODE' => 'NO',
+    'OTHER_LDFLAGS' => '-ObjC',
+    'VALID_ARCHS' => 'arm64',
   }
   s.user_target_xcconfig = { 
     'ENABLE_BITCODE' => 'NO'
   }
-  
+  s.vendored_frameworks = 'MRFSSDK/FSMeeting.framework'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'MJRefresh'
+  s.dependency 'JLRoutes'
+  s.dependency 'AFNetworking'
 end
