@@ -18,9 +18,11 @@ Pod::Spec.new do |s|
     'USER_HEADER_SEARCH_PATHS' => [
         '"/Users/mccree/Desktop/SDK/inc"'
     ],
-    #'ENABLE_BITCODE' => 'NO',
-    #'OTHER_LDFLAGS' => '-ObjC',
+    'ENABLE_BITCODE' => 'NO',
+    'OTHER_LDFLAGS' => '-ObjC',
     'VALID_ARCHS' =>  'arm64',
   }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+
   
 end
