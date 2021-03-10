@@ -6,10 +6,10 @@
 //
 
 #import "MRFSSDK.h"
-#import <FSMeeting/FSMeeting.h>
+//#import <FSMeeting/FSMeeting.h>
 
 @interface MRFSSDK()
-@property(nonatomic, strong) FSMeeting *fsMeeting;
+//@property(nonatomic, strong) FSMeeting *fsMeeting;
 @end
 
 @implementation MRFSSDK
@@ -32,9 +32,9 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
 
 - (void)configFSMeeting{
     NSLog(@"%s 初始化成功",__func__);
-    self.fsMeeting = [[FSMeeting alloc] init];
+//    self.fsMeeting = [[FSMeeting alloc] init];
     UIApplication *app = [UIApplication sharedApplication];
-    [self.fsMeeting application:app didFinishLaunchingWithOptions:nil];
+//    [self.fsMeeting application:app didFinishLaunchingWithOptions:nil];
 }
 
 - (void)joinFSMeeting:(NSDictionary *)param{
@@ -44,7 +44,7 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
     NSString *nickName = param[@"nickName"];
     NSString *serverIp = param[@"serverIp"];
     NSString *port = param[@"port"];
-    [self.fsMeeting enterMeetingWithRoomid:roomId roomPwd:roomPwd nickName:nickName serverip:serverIp serverport:port viewCtrl:[MRFSSDK rootViewController]];
+//    [self.fsMeeting enterMeetingWithRoomid:roomId roomPwd:roomPwd nickName:nickName serverip:serverIp serverport:port viewCtrl:[MRFSSDK rootViewController]];
 }
 
 + (UIViewController *)rootViewController {

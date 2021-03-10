@@ -19,21 +19,21 @@ Pod::Spec.new do |s|
   s.source_files = 'MRFSSDK/Classes/*.{h,m}'
   s.public_header_files = 'MRFSSDK/Classes/*.h'
   s.resources = "MRFSSDK/Assets/*.{bundle}"
-  s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => [
-        '"$(SRCROOT)/../../SDK/inc"'
-    ],
-    'ENABLE_BITCODE' => 'NO',
-    'OTHER_LDFLAGS' => '-ObjC',
-    'VALID_ARCHS' => 'arm64',
-  }
-  s.user_target_xcconfig = { 
-    'ENABLE_BITCODE' => 'NO'
-  }
-  s.vendored_frameworks = 'MRFSSDK/FSMeeting.framework'
-  s.dependency 'Masonry'
-  s.dependency 'ReactiveObjC'
-  s.dependency 'MJRefresh'
-  s.dependency 'JLRoutes'
-  s.dependency 'AFNetworking'
+#  s.xcconfig = {
+#    'USER_HEADER_SEARCH_PATHS' => [
+#        '"$(SRCROOT)/../../SDK/inc"'
+#    ],
+#    'ENABLE_BITCODE' => 'NO',
+#    'OTHER_LDFLAGS' => '-ObjC',
+#    'VALID_ARCHS' => 'arm64',
+#  }
+#  s.user_target_xcconfig = {
+#    'ENABLE_BITCODE' => 'NO'
+#  }
+#  s.vendored_frameworks = 'MRFSSDK/FSMeeting.framework'
+#  s.dependency 'Masonry'
+#  s.dependency 'ReactiveObjC'
+#  s.dependency 'MJRefresh'
+#  s.dependency 'JLRoutes'
+#  s.dependency 'AFNetworking'
 end
