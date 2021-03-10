@@ -42,7 +42,7 @@ UNI_EXPORT_METHOD(@selector(joinFSMeeting:))
     NSString *nickName = param[@"nickName"];
     NSString *serverIp = param[@"serverIp"];
     NSString *port = param[@"port"];
-    [self.fsMeeting enterMeetingWithRoomid:roomId roomPwd:roomPwd nickName:nickName serverip:serverIp serverport:port viewCtrl:[FSMeetingKit rootViewController]];
+    [self.fsMeeting enterMeetingWithRoomid:roomId roomPwd:roomPwd nickName:nickName serverip:serverIp serverport:port viewCtrl:[MRFSSDK rootViewController]];
 }
 
 + (UIViewController *)rootViewController {
