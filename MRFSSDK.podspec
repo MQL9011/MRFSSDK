@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MRFSSDK/Classes/**/*'
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => [
-        '"/Users/mccree/Desktop/SDK/inc"'
+        '"/Users/mccree/Desktop/uni_plugin/SDK/inc"'
     ],
     'ENABLE_BITCODE' => 'NO',
     'OTHER_LDFLAGS' => '-ObjC',
