@@ -24,6 +24,12 @@
   "xcconfig": {
     "USER_HEADER_SEARCH_PATHS": [
       "\"$(SRCROOT)/../../SDK/inc\""
-    ]
+    ],
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "-ObjC",
+    "VALID_ARCHS": "arm64"
+  },
+  "user_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
   }
 }
