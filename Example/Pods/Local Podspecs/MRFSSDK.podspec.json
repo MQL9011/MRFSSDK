@@ -21,6 +21,7 @@
   "requires_arc": true,
   "static_framework": true,
   "source_files": "MRFSSDK/Classes/*.{h,m}",
+  "public_header_files": "MRFSSDK/Classes/*.h",
   "resources": "MRFSSDK/Assets/*.{bundle}",
   "xcconfig": {
     "USER_HEADER_SEARCH_PATHS": [

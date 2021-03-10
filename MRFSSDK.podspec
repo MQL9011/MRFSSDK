@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   s.source_files = 'MRFSSDK/Classes/*.{h,m}'
+  s.public_header_files = 'MRFSSDK/Classes/*.h'
   s.resources = "MRFSSDK/Assets/*.{bundle}"
   s.xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => [
