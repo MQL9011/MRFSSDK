@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = {
     'ENABLE_BITCODE' => 'NO'
   }
-#  s.vendored_frameworks = 'MRFSSDK/FSMeeting.framework'
-#  s.dependency 'Masonry'
-#  s.dependency 'ReactiveObjC'
-#  s.dependency 'MJRefresh'
-#  s.dependency 'JLRoutes'
-#  s.dependency 'AFNetworking'
+  s.vendored_frameworks = 'MRFSSDK/FSMeeting.framework'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'MJRefresh'
+  s.dependency 'JLRoutes'
+  s.dependency 'AFNetworking'
 end

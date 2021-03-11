@@ -32,5 +32,23 @@
   },
   "user_target_xcconfig": {
     "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": "MRFSSDK/FSMeeting.framework",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "JLRoutes": [
+
+    ],
+    "AFNetworking": [
+
+    ]
   }
 }
