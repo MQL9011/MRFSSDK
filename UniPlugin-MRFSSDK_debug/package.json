@@ -13,22 +13,16 @@
 			}],
 			"integrateType": "framework",
 			"frameworks": [
+				"MRFSSDK.framework",
 				"AFNetworking.framework",
+				"FSMeeting.framework",
 				"JLRoutes.framework",
 				"Masonry.framework",
 				"MJRefresh.framework",
-				"ReactiveObjC.framework",
-				"FSMeeting.framework",
-				"MRFSSDK.framework"
+				"ReactiveObjC.framework"
 			],
 			"embedFrameworks": [
-				"AFNetworking.framework",
-				"JLRoutes.framework",
-				"Masonry.framework",
-				"MJRefresh.framework",
-				"ReactiveObjC.framework",
-				"FSMeeting.framework",
-				"MRFSSDK.framework"
+
 			],
 			"assets": [],
 			"privacies": [
@@ -36,7 +30,7 @@
 				"NSCameraUsageDescription"
 			],
 			"embedSwift": false,
-			"deploymentTarget": "8.0",
+			"deploymentTarget": "9.0",
 			"validArchitectures": [
 				"arm64"
 			],
