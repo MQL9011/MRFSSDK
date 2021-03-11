@@ -1,0 +1,43 @@
+{
+	"name": "MRFSMeetingSDK_ios",
+	"id": "UniPlugin-MRFSSDK",
+	"version": "0.1.0",
+	"description": "FSMeetingSDK封装uni插件ios",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {
+			"plugins": [{
+				"type": "module",
+				"name": "UniPlugin-MRFSSDK",
+				"class": "MRFSSDK"
+			}],
+			"integrateType": "framework",
+			"frameworks": [
+				"MRFSSDK.framework",
+				"AFNetworking.framework",
+				"FSMeeting.framework",
+				"JLRoutes.framework",
+				"Masonry.framework",
+				"MJRefresh.framework",
+				"ReactiveObjC.framework"
+			],
+			"embedFrameworks": [
+
+			],
+			"assets": [],
+			"privacies": [
+				"NSPhotoLibraryUsageDescription",
+				"NSCameraUsageDescription"
+			],
+			"embedSwift": false,
+			"deploymentTarget": "9.0",
+			"validArchitectures": [
+				"arm64"
+			],
+			"resources": [
+				"FSMeeting.bundle",
+				"Emoticons.bundle"
+			]
+		}
+	}
+}
