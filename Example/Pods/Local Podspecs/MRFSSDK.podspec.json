@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
+  "static_framework": true,
   "source_files": "MRFSSDK/Classes/*.{h,m}",
   "public_header_files": "MRFSSDK/Classes/*.h",
   "resources": "MRFSSDK/Assets/*.{bundle}",

@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.ios.deployment_target = '9.0'
+  s.static_framework = true
   s.source_files = 'MRFSSDK/Classes/*.{h,m}'
   s.public_header_files = 'MRFSSDK/Classes/*.h'
   s.resources = "MRFSSDK/Assets/*.{bundle}"
